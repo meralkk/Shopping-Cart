@@ -1,0 +1,119 @@
+body{
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 400;
+}
+
+:root{
+    --grey: #3F3F3F;
+    --darkgrey:#dfdede;
+    --lightgrey: #f3f1f1;
+    --white: white;
+    --button: #EF765F;
+}
+
+.header tr td{
+    background-color: var(--grey);
+    color: var(--white);
+    font-weight: 600;
+    padding: 6px 6px 6px 6px;
+}
+
+.body tr td{
+    padding: 5px 5px;
+}
+
+.product-name{
+    width: 120px;
+    text-align: left;
+}
+
+.body tr:nth-child(odd){
+    background-color: var(--darkgrey);
+}
+
+.body tr:nth-child(even){
+    background-color: var(--lightgrey);
+}
+
+.price{
+    text-align: right;
+    width: 80px;
+}
+
+.quantity{
+    text-align: center;
+    width: 80px;
+}
+.price::after{
+    content: "₺";
+}
+
+tbody tr .fa-solid{
+    color: var(--grey);
+    width: 20px;
+    margin-left: 6px;
+    text-align: center;
+}
+
+tbody tr .fa-solid:hover{
+    color: var(--button);
+}
+
+.product-no{
+    text-align: left;
+}
+
+.unit-price{
+    text-align: right;
+}
+
+.subtotal{
+    text-align: right;
+}
+
+.footer tr td{
+    background-color: var(--grey);
+    color: var(--white);
+    text-align: right;
+    font-weight: 600;
+    padding: 8px 6px 8px 6px;
+}
+
+.st-footer{
+    text-align: right;
+}
+
+.st-footer::after{
+    content: "₺";
+}
+
+.continue{
+    background-color: var(--button);
+    color: var(--white);
+    border: 0;
+    padding: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 4px;x
+}
+
+.continue a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--white);
+    padding-left:4px;
+}
+
+.continue:hover{
+    background-color: var(--grey);
+}
+
+.buttons{
+    width: 579px;
+    text-align: right;
+}
+
+.buttons .fa-solid{
+    color: var(--white);
+    padding-right: 6px;
+}
